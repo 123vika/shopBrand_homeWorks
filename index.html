@@ -1,30 +1,210 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/normalize.css">
+    <!-- <link rel="stylesheet" href="css/normalize.css"> -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
+
 <body>
-   <header class="header">
-        <div class="header-container">
-            <div class="header-flex">
-                <div class="header-left">
-                    <img class="header-left_logo" src="img/logo.png" alt="logo">
-                    <p class="header-left_brand">BRAN<span>D</span></p>
-                    <a class="header-left_browse" href="#">Browse</a>
-                    <input type="text" placeholder="Search for Item...">
+    <header class="header">
+        <div class="header-top">
+            <div class="container">
+                <div class="header-flex">
+                    <div class="header-left">
+                        <img class="header-left__logo" src="img/logo.png" alt="logo">
+                        <p class="header-left__brand">BRAN<span>D</span></p>
+                        <a class="header-left__browse" href="#">Browse</a>
+                        <input type="text" placeholder="Search for Item...">
+                        <button class="header-left__button-search" type="submit"><i class="fas fa-search"></i></button>
+                    </div>
+                    <div class="header-right">
+                        <img class="header-right__cart" src="img/cart/cart.svg" alt="cart">
+                        <a class="header-right__my-acc" href="#">My account</a>
+                    </div>
                 </div>
-                <div class="header-right">
-                    <img class="header-right_cart" src="img/cart/cart.svg" alt="cart">
-                    <a class="header-right_my-acc" href="#">My account</a>
+            </div>
+        </div>
+        <div class="header-bottom">
+            <div class="container">
+                <div class="header-bottom-flex">
+                    <a href="#" class="header-bottom_link">Home</a>
+                    <a href="#" class="header-bottom_link">Man</a>
+                    <a href="#" class="header-bottom_link">Women</a>
+                    <a href="#" class="header-bottom_link">Kids</a>
+                    <a href="#" class="header-bottom_link">Accoseriese</a>
+                    <a href="#" class="header-bottom_link">Featured</a>
+                    <a href="#" class="header-bottom_link">Hot Deals</a>
                 </div>
-            </div>   
-        </div>  
-   </header>
-   
+            </div>
+        </div>
+    </header>
+
+    <div class="slider">
+        <div class="container">
+            <div class="slider-flex">
+                <div class="slider-flex__line"></div>
+                <div class="slider-flex__title">
+                    <p class="slider__title           slider__big">THE BRAND</p>
+                    <p class="slider__title slider__less">OF LUXERIOUS <span
+                            class="slider__title slider__less-red">FASHION</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="category">
+        <div class="container">
+            <div class="category-flex">
+                <div class="category-flex__left">
+                    <div class="category-card">
+                        <img class="category-card__img" src="./img/category/category-men.jpg" alt="category-men">
+                        <div class="category-card-descr">
+                            <p class="category-card-descr__black">hOT dEAL<br><span class="category-card-descr__red">FOR
+                                    MEN</span></p>
+                        </div>
+                    </div>
+
+                    <div class="category-card">
+                        <img class="category-card__img" src="./img/category/category-acces.jpg" alt="category-acces">
+                        <div class="category-card-descr">
+                            <p class="category-card-descr__black">LUXIROUS & trendy<br><span
+                                    class="category-card-descr__red">ACCESORIES</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="category-flex__right">
+                    <div class="category-card">
+                        <img class="category-card__img" src="./img/category/category-women.jpg" alt="category-women">
+                        <div class="category-card-descr">
+                            <p class="category-card-descr__black">30% offer<br><span
+                                    class="category-card-descr__red">women</span></p>
+                        </div>
+                    </div>
+
+                    <div class="category-card">
+                        <img class="category-card__img" src="./img/category/category-kids.jpg" alt="category-kids">
+                        <div class="category-card-descr">
+                            <p class="category-card-descr__black">new arrivals<br><span
+                                    class="category-card-descr__red">FOR kids</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="product">
+        <p class="product-title">Fetured Items</p>
+        <p class="product-text">Shop for items based on what we featured in this week</p>
+
+        <div class="container">
+
+            <div class="product-top">
+                <div class="product-card">
+                    <img class="product-card__img" src="./img/products/layer-1.jpg" alt="products/Layer-1">
+                    <p class="product-card__descr">Mango-People-T-shirt</p>
+                    <div class="product-card__prise-stars">
+                        <div class="product-card__prise">$52.00</div>
+                        <div class="product-card__stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <img class="product-card__img" src="./img/products/Layer-2.jpg" alt="products/Layer-2">
+                    <p class="product-card__descr">Mango-People-T-shirt</p>
+                    <div class="product-card__prise-stars">
+                        <div class="product-card__prise">$52.00</div>
+                        <div class="product-card__stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <img class="product-card__img" src="./img/products/Layer-3.jpg" alt="products/Layer-3">
+                    <p class="product-card__descr">Mango-People-T-shirt</p>
+                    <div class="product-card__prise-stars">
+                        <div class="product-card__prise">$52.00</div>
+                        <div class="product-card__stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <img class="product-card__img" src="./img/products/Layer-4.jpg" alt="products/Layer-4">
+                    <p class="product-card__descr">Mango-People-T-shirt</p>
+                    <div class="product-card__prise-stars">
+                        <div class="product-card__prise">$52.00</div>
+                        <div class="product-card__stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-bottom">
+                <div class="product-card">
+                    <img class="product-card__img" src="./img/products/Layer-5.jpg" alt="products/Layer-5">
+                    <p class="product-card__descr">Mango-People-T-shirt</p>
+                    <div class="product-card__prise-stars">
+                        <div class="product-card__prise">$52.00</div>
+                        <div class="product-card__stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <img class="product-card__img" src="./img/products/Layer-6.jpg" alt="products/Layer-6">
+                    <p class="product-card__descr">Mango-People-T-shirt</p>
+                    <div class="product-card__prise-stars">
+                        <div class="product-card__prise">$52.00</div>
+                        <div class="product-card__stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <img class="product-card__img" src="./img/products/Layer-7.jpg" alt="products/Layer-7">
+                    <p class="product-card__descr">Mango-People-T-shirt</p>
+                    <div class="product-card__prise-stars">
+                        <div class="product-card__prise">$52.00</div>
+                        <div class="product-card__stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <img class="product-card__img" src="./img/products/Layer-8.jpg" alt="products/Layer-8">
+                    <p class="product-card__descr">Mango-People-T-shirt</p>
+                    <div class="product-card__prise-stars">
+                        <div class="product-card__prise">$52.00</div>
+                        <div class="product-card__stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    </div>
+                </div>
+            </div>
+        
+            <a href="#" class="product-button__link">Browse All Product <span class="arrow"><i class="fas fa-long-arrow-alt-right"></i></span></a> 
+        </div>
+        
+    </div>
+
+    <div class="feature">
+        <div class="feature-flex">
+            <div class="feature-flex__bg">
+
+            </div>
+            <div class="feature-flex__box">
+
+                
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
+
+<!-- <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-linkedin-in"></i>
+            <i class="fab fa-pinterest-p"></i>
+            <i class="fab fa-google-plus-g"></i> -->
