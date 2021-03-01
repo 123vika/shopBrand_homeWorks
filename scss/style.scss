@@ -9,8 +9,6 @@
 }
 .header {
 	height: 100px;
-	box-shadow: 0 0 10px rgba(0, 0, 0, 0.17);
-	border: 1px solid #ececec;
 	background-color: #ffffff;
 }
 .header-flex {
@@ -56,6 +54,10 @@
 .fa-caret-down{
 	padding-left: 10px;
 }
+.header-left__search-block{
+	display: flex;
+
+}
 .header-left__search{
 	width: 317px;
 	height: 38px;
@@ -71,9 +73,8 @@
 	color: #a4a4a4;
 }
 .header-left__button-search {
-	width: 36px;
-	height: 38px;
-	margin: 31px 0;
+	padding: 11px;
+	margin: 32px 0 30px 0;
 	border: solid 1px #e6e6e6;
 	border-radius: 0px 3px 3px 0px;
 	background-color: #ffffff;
@@ -105,9 +106,12 @@
 	width: 130px;
 	background-color: #f16d7f;
 }
+hr{
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.17);
+	border: solid 0.2px #ececec;
+}
 .header-bottom{
 	background-color: #ffffff;
-	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.17);
 }
 .header-bottom-flex {
 	display: flex;
@@ -135,7 +139,8 @@
 	background-color: #e8e8e8;
 	background-image: url(../img/slider-men.jpg);
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: 120%;
+	background-position: -70px -40px;
 	flex-grow: 1;
 }
 .slider-flex {
@@ -151,6 +156,7 @@
 	margin-top: 202px;
 }
 .slider__title {
+	padding-left: 12px;
 	font-weight: 900;
 	letter-spacing: 0.025em;
 	color: #222222;
@@ -246,9 +252,15 @@
 	color: #f16d7f;
 }
 .product-card__stars{
-	color: #e4af48;
+	color:#9f9f9f;
 	font-size: 15px;
 }
+.fa-star:hover{
+	color:#e4af48;	
+}
+// .fa-star:active{
+// 	color:#e4af48;	
+// }
 .product-button__link{
 	display: block;
 	margin-left: 437px;
@@ -276,8 +288,7 @@
 	padding-bottom: 66px;
 	background-image: url(../img/feature/background.jpg);
 	background-repeat: no-repeat;
-	background-position: 0 0;
-	background-size: 111%;
+	background-size: 112%;
 }
 .feature-flex__head{
 	font-size: 53.7px;
@@ -298,16 +309,13 @@
 }
 .feature-flex-box{
 	width: 37%;
-	padding-bottom: 60px;
-	background-color: #222224;
+	background-color: #222224;padding-bottom: 66px;
 }
 .feature-flex-box__card{
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-between;	
 }
 .feature-flex-box__img{
-	width: 45px;
-	height: 40px;
 	padding-top: 48px;
 	padding-left: 35px;
 }
@@ -513,5 +521,5 @@
 	opacity: 0.08;
 	background-color: #f16d7f;
 	opacity: 0.29;
-background-color: #ffffff;
+	background-color: #ffffff;
 }

@@ -14,15 +14,18 @@
 
 <body>
     <header class="header">
-        <div class="header-top">
+        <nav class="header-top">
             <div class="container">
                 <div class="header-flex">
                     <div class="header-left">
                         <img class="header-left__logo" src="img/logo.png" alt="logo">
                         <p class="header-left__brand">BRAN<span class="header-left__brand-red">D</span></p>
                         <a class="header-left__browse" href="#">Browse<i class="fas fa-caret-down"></i></a>
-                        <input class="header-left__search" type="text" placeholder="Search for Item...">
-                        <button class="header-left__button-search" type="submit"><i class="fas fa-search"></i></button>
+                        <div class="header-left__search-block">
+                            <input class="header-left__search" type="text" placeholder="Search for Item...">
+                            <button class="header-left__button-search" type="submit"><i class="fas fa-search"></i></button>
+                        </div>
+                        
                     </div>
                     <div class="header-right">
                         <img class="header-right__cart" src="img/cart/cart.svg" alt="cart">
@@ -30,8 +33,9 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="header-bottom">
+        </nav>
+        <hr>
+        <nav class="header-bottom">
             <div class="container">
                 <div class="header-bottom-flex">
                     <a href="#" class="header-bottom_link">Home</a>
@@ -43,10 +47,10 @@
                     <a href="#" class="header-bottom_link">Hot Deals</a>
                 </div>
             </div>
-        </div>
+        </nav>
     </header>
 
-    <div class="slider">
+    <section class="slider">
         <div class="container">
             <div class="slider-flex">
                 <div class="slider-flex__line"></div>
@@ -57,9 +61,9 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
-    <div class="category container">
+    <section class="category container">
         <div class="category-flex">
             <div class="category-flex__left">
 
@@ -98,9 +102,9 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
-    <div class="product">
+    <section class="product">
         <p class="product-title">Fetured Items</p>
         <p class="product-text">Shop for items based on what we featured in this week</p>
 
@@ -194,10 +198,10 @@
                         class="fas fa-long-arrow-alt-right"></i></span></a>
         </div>
 
-    </div>
+    </section>
 
-    <div class="feature">
-        <div class="container">
+    <section class="feature container">
+        
             <div class="feature-flex">
                 <div class="feature-flex__bg">
                     <p class="feature-flex__head feature-flex__bg-sale">
@@ -234,14 +238,11 @@
                                 next-generation innov tion with extensive models.</p>
                         </div>
                     </div>
-
                 </div>
-
             </div>
-        </div>
-    </div>
+    </section>
 
-    <div class="subscribe">
+    <section class="subscribe">
         <div class="subscribe-wrap">
             <div class="container">
                 <div class="subscribe-flex">
@@ -276,7 +277,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
     <footer class="footer">
         <div class="container">
