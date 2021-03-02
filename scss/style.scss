@@ -378,14 +378,16 @@ hr{
 	color: #222224;	
 }
 .subscribe-flex__left-lines{
+	display: flex;
+}
+.line{
 	margin-top: 41px;
 	width: 38px;
 	height: 4px;
+	z-index: 5;
+	margin-right: 13px;background-color: #d6d6d6;
 }
-.line-white{
-	background-color: #d6d6d6;	
-}
-.line-red{
+.line:hover{
 	background-color: #f16d7f;
 }
 .subscribe-flex__right{
