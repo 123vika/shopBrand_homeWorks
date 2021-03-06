@@ -37,6 +37,7 @@
   color: #f16d7f;
 }
 .header-left__browse { 
+  position: relative;
   width: 87px;
   margin: 29px 0 32px 37px;
   padding:12px 15px 9px;
@@ -60,7 +61,7 @@
   position: absolute;
   display: none;
   top: 68px;
-  left: 207px;
+  left: 237px;
   padding: 20px;
   border: 1px solid #e8e8e8;
   border-radius: 5px;
