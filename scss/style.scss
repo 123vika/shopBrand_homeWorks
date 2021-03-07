@@ -60,13 +60,13 @@
   position: absolute;
   display: none;
   top: 68px;
-  left: 389px;
+  left: 360px;
   padding: 20px;
   border: 1px solid #e8e8e8;
   border-radius: 5px;
   background-color: #ffffff;
-  height: 310px;
-	overflow: scroll;
+  // height: 310px;
+	// overflow: scroll;
 }
 .drop-down:before{
 	content: "";
@@ -217,8 +217,6 @@
   color: #4a4a4a;
   border: 1px solid #eaeaea;
 }
-
-
 .header-right__my-acc {
   display: block;
   margin-left: 26px;
