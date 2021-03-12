@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Single page</title>
+    <title>Checkout page</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
         integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
@@ -286,6 +286,7 @@
                         </div>
                     </li>
                     <li class="header-bottom-menu__list"><a href="#" class="header-bottom-menu__link">Women</a>
+                        <div class="header-bottom-menu__line"></div>
                         <div class="mega-box">
                             <div class="mega-block">
                                 <h3 class="mega-head">Women</h3>
@@ -648,8 +649,90 @@
         </div>
     </nav>
 
+    <section class="shipping" action="#">
+        <div class="container">
+            <h4 class="shipping-part">01. Shipping Adress</h4>
+            <div class="shipping-flex">
+                <div class="shipping-part__left">
+                    <h5 class="shipping-part__title">Check as a guest or register</h5>
+                    <p class="shipping-part__text">Register with us for future convenience</p>
+
+                    <div class="shipping-part__radio-button">
+                        <div class="radio-button__guest">
+                            <input type="radio" checked id="guest" name="guest-register">
+                            <label class="radio-button__lebel-guest" for="guest">checkout as guest</label>
+                        </div>
+
+                        <div class="radio-button__register">
+                            <input type="radio" id="register" name="guest-register">
+                            <label class="radio-button__lebel-register" for="register">register</label>
+                        </div>
+                    </div>
 
 
+                    <h5 class="shipping-part__title">register and save time!</h5>
+                    <p class="shipping-part__text">Register with us for future convenience</p>
+
+                    <div class="shipping-part__text-arrow">
+                        <a href="#" class="shipping-part__text_link"><i class="fas fa-angle-double-right"></i> Fast and easy checkout</a>
+                        <a href="#" class="shipping-part__text_link"><i class="fas fa-angle-double-right"></i> Easy access to your order history and status</a>
+                    </div>
+                    <a class="shipping-part__button" href="#">Continue</a>
+                </div>
+
+                <div class="shipping-part__right">
+                    <h5 class="shipping-part__title">Already registed?</h5>
+                    <p class="shipping-part__text">Please log in below</p>
+
+                    <h6 class="shipping-part__smile-title">EMAIL ADDRESS<span
+                            class="shipping-part__smile-title_red">*</span></h6>
+                    <label for="email"></label>
+                    <input class="shipping-part__email" type="email" checked id="email" name="email">
+                        <!-- placeholder="Enter your email" -->
+
+                    <h6 class="shipping-part__smile-title">PASSWORD<span class="shipping-part__smile-title_red">*</span>
+                    </h6>
+                    <label for="password"></label>
+                    <input class="shipping-part__password" type="password" checked id="password" name="password">
+                        <!-- placeholder="Enter your password" -->
+
+                    <p class="shipping-part__warning">* Required Fileds</p>
+
+                    <div class="shipping-part__send">
+                        <a class="shipping-part__send-link" href="#">Log in</a>
+                        <a class="shipping-part__send-link-forgot" href="#">Forgot Password ?</a>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <hr class="shipping__hr">
+            <h4 class="shipping-part">02.   BILLING INFORMATION</h4>
+
+            <hr class="shipping__hr">
+            <h4 class="shipping-part">03.   SHIPPING INFORMATION</h4>
+
+            <hr class="shipping__hr">
+            <h4 class="shipping-part">04.   SHIPPING METHOD</h4>
+
+            <hr class="shipping__hr">
+            <h4 class="shipping-part">05.   PAYMENT METHOD</h4>
+
+            <hr class="shipping__hr">
+            <h4 class="shipping-part">06.   ORDER REVIEW</h4>
+            <hr class="shipping__hr">
+        </div>
+    </section>
+
+
+
+
+    
+    
+    
+    
+    
 
 
 
@@ -777,3 +860,7 @@
             </div>
         </div>
     </footer>
+
+</body>
+
+</html>
