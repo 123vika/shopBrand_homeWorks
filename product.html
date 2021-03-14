@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
         integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 
@@ -98,7 +97,8 @@
 
                     <div class="header-right">
                         <div class="header-right__cart">
-                            <img class="header-right__cart-img" src="img/cart/cart.svg" alt="cart">
+                            <a href="./shopping-cart.html" target="blank"><img class="header-right__cart-img"
+                                    src="img/cart/cart.svg" alt="cart"></a>
                             <div class="cart">
                                 <div class="cart-flex">
                                     <div class="cart-block">
@@ -134,11 +134,12 @@
                                     <p class="total">TOTAL</p>
                                     <p class="total-price">$500.00</p>
                                 </div>
-                                <div class="cart-checkout">Checkout</div>
-                                <div class="cart-go-to-cart">Go to cart</div>
+                                <a class="cart-checkout" href="./checkout.html" target="blank">Checkout</a>
+                                <a class="cart-go-to-cart" href="./shopping-cart.html" target="blank">Go to cart</a>
                             </div>
                         </div>
-                        <a class="header-right__my-acc" href="#">My account <i class="fas fa-caret-down"></i></a>
+                        <a class="header-right__my-acc" href="./checkout.html" target="blank">My account <i
+                                class="fas fa-caret-down"></i></a>
                     </div>
                 </div>
             </div>
@@ -648,7 +649,117 @@
         </div>
     </nav>
 
+    <div class="chooses">
+        <div class="container">
+            <div class="chooses-flex">
+                <aside class="chooses__aside">
+                    <select name="chooses-category" class="chooses-category">
+                        <option value="Category">Category</option>
+                        <option value="Accessories">Accessories</option>
+                        <option value="">Bags</option>
+                        <option value="">Denim</option>
+                        <option value="">Hoodies & Sweatshirts</option>
+                        <option value="">Jackets & Coats</option>
+                        <option value="">Pants</option>
+                        <option value="">Polos</option>
+                        <option value="">Shirts</option>
+                        <option value="">Shoes</option>
+                        <option value="">Shorts</option>
+                        <option value="">Sweaters & Knits</option>
+                        <option value="">T-Shirts</option>
+                        <option value="">Tanks</option>
+                    </select>
+                    <select name="chooses-category" class="chooses-category">
+                        <option value="Category">BRAND</option>
+                    </select>
+                    <select name="chooses-category" id="chooses-category" class="chooses-category">
+                        <option value="Category">DESIGNER</option>
+                    </select>
+                </aside>
 
+                <div class="chooses-flex__colimn">
+                    <div class="chooses__trend-sise-prise">
+                        <div class="chooses__trend">
+                            <div class="chooses__title">Trending now</div>
+                            <ul class="chooses__title_list">
+                                <a href="#" class="chooses__title_link">Bohemian<span
+                                        class="chooses__title_link-line">|</span></a>
+                                <a href="#" class="chooses__title_link">Floral<span
+                                        class="chooses__title_link-line">|</span></a>
+                                <a href="#" class="chooses__title_link">Lace</a>
+                            </ul>
+                            <ul class="chooses__title_list">
+                                <a href="#" class="chooses__title_link">Floral <span
+                                        class="chooses__title_link-line">|</span></a>
+                                <a href="#" class="chooses__title_link">Lace <span
+                                        class="chooses__title_link-line">|</span> </a>
+                                <a href="#" class="chooses__title_link">Bohemian</a>
+                            </ul>
+                        </div>
+
+                        <div class="chooses__size">
+                            <div class="chooses__title">Size </div>
+
+                            <div class="chooses__size_checkbox-top">
+                                <label class="chooses__label" for="XXS">
+                                    <input class="chooses__input" id="XXS" type="checkbox"> XXS</label>
+                                <label class="chooses__label" for="XS">
+                                    <input class="chooses__input" id="XS" type="checkbox"> XS</label>
+                                <label class="chooses__label" for="S">
+                                    <input class="chooses__input" id="S" type="checkbox"> S</label>
+                                <label class="chooses__label" for="M">
+                                    <input class="chooses__input" id="M" type="checkbox"> M</label>
+                            </div>
+
+                            <div class="chooses__size_checkbox-bottom">
+                                <label class="chooses__label" for="L">
+                                    <input class="chooses__input" id="L" type="checkbox"> L</label>
+                                <label class="chooses__label" for="XL">
+                                    <input class="chooses__input" id="XL" type="checkbox"> XL</label>
+                                <label class="chooses__label" for="XXL">
+                                    <input class="chooses__input" id="XXL" type="checkbox"> XXL</label>
+                            </div>
+
+                        </div>
+
+                        <div class="chooses__prise">
+                            <div class="chooses__title">PRICE</div>
+                            <label for="prise"></label>
+                            <input class="chooses__prise_range" id="prise" type="range" valuemin="52$" step="1" />
+
+                            <div class="prise__range">
+                                <div class="chooses__title chooses__title_prise">$52</div>
+                                <div class="chooses__title chooses__title_prise">$400</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="sort">
+                        <div class="sort__by">
+                            <div class="sort__by_title">Sort By</div>
+                            <div class="sort-name">
+                                <select name="sort" class="sort-name__options">
+                                    <option value="BRAND">Name</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="sort-show">
+                            <select name="Show" class="sort-date">
+                                <option value="09">09</option>
+                            </select>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+
+
+            </div>
+        </div>
+    </div>
 
 
 
