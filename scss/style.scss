@@ -93,7 +93,7 @@ body {
   text-decoration: none;
   outline: none;
 }
-.header-left__browse-block:active .drop-down {
+.header-left__browse-block:hover .drop-down {
   display: flex;
 }
 .header-left__search {
@@ -246,6 +246,10 @@ body {
   color: #ffffff;
   width: 130px;
   background-color: #f16d7f;
+}
+.header-right__my-acc:hover{
+  color: #f16d7f;
+  background-color: #ffffff;
 }
 hr {
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.17);
@@ -549,9 +553,16 @@ hr {
   color: #ffffff;
   background-color: #f16d7f;
 }
+.product-button__link:hover{
+color: #f16d7f;
+background-color: #ffffff;
+}
 .arrow {
   color: #ffffff;
   padding-left: 8px;
+}
+.product-button__link:hover .arrow{
+  color: #ef5b70;
 }
 .feature-flex {
   display: flex;
@@ -743,6 +754,10 @@ hr {
   font-weight: 400;
   letter-spacing: 0.025em;
   color: #ffffff;
+}
+.subscribe-flex__right-button:hover{
+  color: #ef5b70;
+  background-color: #ffffff;
 }
 .footer-top {
   display: flex;
@@ -1047,12 +1062,27 @@ hr {
   border: solid 1px #ef5b70;
   background-color: #ffffff;
 }
+.product-descr__button-img_white{
+  display: none;
+}
 .product-descr__button-text{
   padding-top: 3px;
   padding-left: 15px;
   font-size: 16px;
   font-weight: bold; 
   color: #ef5b70;
+}
+.product-descr__button-flex:hover {
+  background-color: #ef5b70;
+}
+.product-descr__button-flex:hover .product-descr__button-img_white {
+  display: flex;
+}
+.product-descr__button-flex:hover .product-descr__button-img{
+  display: none;
+}
+.product-descr__button-flex:hover .product-descr__button-text{
+  color: #ffffff;
 }
 .you-may{
   margin-top: 119px;  
@@ -1175,6 +1205,10 @@ input[type='radio']:checked::after {
   border: solid 1px #eaeaea;
   background-color: #ffffff;
 }
+.shipping-part__button:hover{
+  background-color: #4a4a4a;
+  color: #ffffff;
+}
 .shipping-part__smile-title{
   font-size: 12px;
   color: #222222;
@@ -1208,6 +1242,10 @@ input[type='radio']:checked::after {
   color: #4a4a4a;
   text-transform: uppercase;
   text-decoration: none;
+}
+.shipping-part__send-link:hover{
+background-color: #4a4a4a;
+color: #ffffff;
 }
 .shipping-part__send-link-forgot{
   padding-left: 32px;
@@ -1373,6 +1411,12 @@ input[type='radio']:checked::after {
   border-radius: 3px;
   border: solid 1px #ef5b70;
   background-color: #ffffff;
+}
+.pagination__view-all:hover{
+  background-color: #ef5b70;
+}
+.pagination__view-all:hover .pagination__view-all_link{
+  color: #ffffff;
 }
 .pagination__view-all_link{
   font-size: 16px;
