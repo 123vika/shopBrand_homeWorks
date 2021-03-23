@@ -10,7 +10,7 @@
   margin-top: 224px;
   width: 12px;
   height: 92px;
-  background-color: $pinc-color;
+  background-color: $pink-color;
 }
 .slider__title {
   padding-left: 12px;
@@ -31,7 +31,7 @@
 }
 .slider__title-text-less-red {
   font-size: 40px;
-  color: $pinc-color;
+  color: $pink-color;
 }
 .category {
   margin-top: 62px;
@@ -65,7 +65,7 @@
 }
 .category-card-descr__red {
   font-size: 30px;
-  color: $pinc-color;
+  color: $pink-color;
 }
 .product {
   margin-top: 100px;
@@ -135,7 +135,7 @@
   font-size: 16px;
   font-weight: 700;
   text-transform: uppercase;
-  color: $pinc-color;
+  color: $pink-color;
 }
 .product-card__stars,
 .you-may__stars {
@@ -143,7 +143,7 @@
   font-size: 15px;
 }
 .fa-star:hover {
-  color: #e4af48;
+  color: $yellow-color;
 }
 .product-card__add {
   position: absolute;
@@ -196,10 +196,10 @@
   text-decoration: none;
   letter-spacing: 0.025em;
   color: #ffffff;
-  background-color: $pinc-color;
+  background-color: $pink-color;
 }
 .product-button__link:hover {
-  color: $pinc-color;
+  color: $pink-color;
   background-color: #ffffff;
 }
 .arrow {
@@ -207,7 +207,7 @@
   padding-left: 8px;
 }
 .product-button__link:hover .arrow {
-  color: $pinc-color;
+  color: $pink-color;
 }
 .feature-flex {
   display: flex;
@@ -232,7 +232,7 @@
   padding-left: 39px;
 }
 .feature-flex__bg-red {
-  color: $pinc-color;
+  color: $pink-color;
 }
 .feature-flex__bg-text {
   padding-left: 39px;

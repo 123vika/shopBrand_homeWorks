@@ -62,7 +62,7 @@
   }
   .header-left__brand-red {
     font-weight: 900;
-    color: $pinc-color;
+    color: $pink-color;
   }
   .header-left__browse-block {
     display: flex;
@@ -177,7 +177,7 @@
     line-height: 1.2;
     font-weight: 400;
     text-transform: uppercase;
-    color: $pinc-color;
+    color: $pink-color;
   }
   .cart-span-x {
     font-size: 10px;
@@ -188,7 +188,7 @@
     line-height: 1.2;
     font-weight: 400;
     text-transform: uppercase;
-    color: #e4af48;
+    color: $yellow-color;
   }
   .cart-x {
     padding-left: 17px;
@@ -214,12 +214,12 @@
     font-weight: 700;
     text-transform: uppercase;
     text-decoration: none;
-    color: $pinc-color;
-    border: 1px solid $pinc-color;
+    color: $pink-color;
+    border: 1px solid $pink-color;
   }
   .cart-checkout:hover{
     color: #ffffff;
-    background-color: $pinc-color;
+    background-color: $pink-color;
   }
   .cart-go-to-cart {
     margin-top: 11px;
@@ -246,10 +246,10 @@
     letter-spacing: 0.025em;
     color: #ffffff;
     width: 130px;
-    background-color: $pinc-color;
+    background-color: $pink-color;
   }
   .header-right__my-acc:hover{
-    color: $pinc-color;
+    color: $pink-color;
     background-color: #ffffff;
   }
   hr {
@@ -278,7 +278,7 @@
     width: 75px;
     height: 3px;
     margin-left: 12px;
-    background-color: $pinc-color;
+    background-color: $pink-color;
   }
   .header-bottom-menu__list:hover .mega-box {
     display: flex;
@@ -349,7 +349,7 @@
   }
   .mega-menu-list__link:hover,
   .drop-down-list__link:hover {
-    color: $pinc-color;
+    color: $pink-color;
   }
   .mega-menu__img {
     margin-top: 25px;
