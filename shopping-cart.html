@@ -28,7 +28,7 @@
 
 						<div class="header-left__browse-block">
 							<div class="header-left__relative">
-								<button class="header-left__browse" href="#">Browse <i class="fas fa-caret-down"></i>
+								<button class="header-left__browse">Browse <i class="fas fa-caret-down"></i>
 								</button>
 								<div class="drop-down">
 									<div class="drop-down-flex">
@@ -956,11 +956,10 @@
 				</td>
 
 				<td class="shopping-cart__prise shopping-cart__center">$150</td>
-				<td ><input class="shopping-cart__quantity shopping-cart__center" value="2"></td>
+				<td><input class="shopping-cart__quantity shopping-cart__center" value="2"></td>
 				<td class="shopping-cart__ship shopping-cart__center">FREE</td>
 				<td class="shopping-cart__total shopping-cart__center">$300</td>
-				<td class="shopping-cart__action shopping-cart__center"><i
-						class="fas fa-times-circle"></i></td>
+				<td class="shopping-cart__action shopping-cart__center"><i class="fas fa-times-circle"></i></td>
 			</tr>
 		</tbody>
 
@@ -987,8 +986,7 @@
 				<td><input class="shopping-cart__quantity shopping-cart__center" value="2"></td>
 				<td class="shopping-cart__ship shopping-cart__center">FREE</td>
 				<td class="shopping-cart__total shopping-cart__center">$300</td>
-				<td class="shopping-cart__action shopping-cart__center"><i
-						class="fas fa-times-circle"></i></td>
+				<td class="shopping-cart__action shopping-cart__center"><i class="fas fa-times-circle"></i></td>
 			</tr>
 		</tbody>
 
@@ -1015,11 +1013,10 @@
 				<td><input class="shopping-cart__quantity shopping-cart__center" value="2"></td>
 				<td class="shopping-cart__ship shopping-cart__center">FREE</td>
 				<td class="shopping-cart__total shopping-cart__center">$300</td>
-				<td class="shopping-cart__action shopping-cart__center"><i
-						class="fas fa-times-circle"></i></td>
+				<td class="shopping-cart__action shopping-cart__center"><i class="fas fa-times-circle"></i></td>
 			</tr>
 		</tbody>
-	
+
 	</table>
 
 	<section class="shopping-cart__buttons container">
@@ -1032,19 +1029,37 @@
 	<section class="shopping-cart__shipp-coupon-total container">
 		<div class="shopping-cart__shipp">
 			<h4 class="shopping-cart__shipp_title">Shipping Adress</h4>
-			<details class="shopping-cart__shipp__details"><summary class="shopping-cart__shipp__summary">Bangladesh</details>
-			<input class="shopping-cart__shipp__input" type="text"  placeholder="State">
+			<details class="shopping-cart__shipp__details">
+				<summary class="shopping-cart__shipp__summary">Bangladesh
+			</details>
+			<input class="shopping-cart__shipp__input" type="text" placeholder="State">
 			<br>
-			<input class="shopping-cart__shipp__input" type="text"  placeholder="Postcode / Zip">	
+			<input class="shopping-cart__shipp__input" type="text" placeholder="Postcode / Zip">
+			<br>
+			<a href="#" class="shopping-cart__shipp__link">
+				<div class="shopping-cart__shipp__link-text">get a quote</div>
+			</a>
 		</div>
 
 		<div class="shopping-cart__coupon">
 			<h4 class="shopping-cart__coupon_title">coupon discount</h4>
+			<h5 class="shopping-cart__coupon_title-min">Enter your coupon code if you have one</h5>
+			<input class="shopping-cart__coupon__input" type="text" placeholder="State">
+			<br>
+			<a href="#" class="shopping-cart__coupon__link">
+				<div class="shopping-cart__shipp__coupon-text">Apply coupon</div>
+			</a>
 		</div>
 
-		<div class="shopping-cart__total">
-			<h4 class="shopping-cart__total_title">GRAND TOTAL <span class="shopping-cart__total_title-sum">$900</span>
-			</h4>
+		<div class="shopping-cart-total">
+			<div class="shopping-cart-total__sub-total">Sub total <span
+					class="shopping-cart-total__sub-total_sum">$900</span>
+			</div>
+			<div class="shopping-cart-total__title">GRAND TOTAL <span class="shopping-cart-total__title-sum">
+					$900</span>
+			</div>
+			<div class="shopping-cart-total__line"></div>
+			<a href="#" class="shopping-cart-total__link"><div class="shopping-cart-total__link-button">proceed to checkout</div></a>
 		</div>
 	</section>
 

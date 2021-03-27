@@ -107,7 +107,6 @@
 }
 .subscribe-flex__right-button {
   position: absolute;
-  top: 0;
   right: 0px;
   width: 104px;
   height: 46px;
@@ -119,7 +118,12 @@
   font-size: 14px;
   font-weight: 400;
   letter-spacing: 0.025em;
-  color: #ffffff;
+  color: #ffffff; 
+  text-decoration: none;
+}
+.subscribe-flex__right-button_text{
+  padding-top: 13px;
+
 }
 .subscribe-flex__right-button:hover {
   color: $pink-color;
