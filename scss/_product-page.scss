@@ -10,8 +10,8 @@
 	width: 243px;
 }
 .chooses-category {
-	position: relative;
-	// width: 200px;
+	// position: relative;
+	width: 200px;
 	// height: 34px;
 	margin-bottom: 18px;
 	padding-left: 11px;
@@ -43,9 +43,9 @@
 	content: '\25BC';
 }
 .chooses-category__list{
-	position: absolute;
-	display: block;
-	width: 200px;
+	// position: absolute;
+	// display: block;
+	width: 190px;
 	margin-left: -40px;
 	font-size: 14px;
 	line-height: 2.36;
@@ -53,7 +53,7 @@
 	text-transform: none;
 	list-style-type: none;
 	background-color: #ffffff;
-	z-index: 1;
+	// z-index: 1;
 	
 }
 .chooses-flex__colimn {
