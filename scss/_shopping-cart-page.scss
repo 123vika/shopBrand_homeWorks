@@ -59,6 +59,9 @@ tbody {
 	text-transform: uppercase;
 	color: $yellow-color;
 }
+.fa-times-circle{
+	transition: 0.2s;
+}
 .fa-times-circle:hover{
 	color: $yellow-color;
 }
@@ -101,6 +104,7 @@ tbody {
 	background-color: #ffffff;
 	border: 1px solid #eaeaea;
 	padding: 20px 39px;
+	transition: 1s;
 }
 .continue:hover,
 .clear:hover {
@@ -172,6 +176,7 @@ tbody {
 	color: #4a4a4a;
 	background-color: #ffffff;
 	border: 1px solid #eaeaea;
+	transition: 1s;
 }
 .shopping-cart__shipp__link-text:hover, .shopping-cart__shipp__coupon-text:hover{
 	color:#ffffff;
@@ -241,6 +246,7 @@ tbody {
 	text-transform: uppercase;
 	color: #ffffff;
 	background-color: $pink-color;
+	transition: 1s;
 }
 .shopping-cart-total__link-button:hover{
 	color: $pink-color;

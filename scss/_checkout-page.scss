@@ -109,6 +109,7 @@ input[type="radio"]:checked::after {
   text-decoration: none;
   border: solid 1px #eaeaea;
   background-color: #ffffff;
+  transition: 1.5s;
 }
 .shipping-part__button:hover {
   background-color: #4a4a4a;
@@ -148,6 +149,7 @@ input[type="radio"]:checked::after {
   color: #4a4a4a;
   text-transform: uppercase;
   text-decoration: none;
+  transition: 1.5s;
 }
 .shipping-part__send-link:hover {
   background-color: #4a4a4a;

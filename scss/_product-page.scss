@@ -185,6 +185,7 @@
 	font-weight: 300;
 	color: #c4c4c4;
 	text-decoration: none;
+	transition: 0.2s;
 }
 .pagination__pages:hover {
 	color: $pink-color;
@@ -194,6 +195,7 @@
 	border-radius: 3px;
 	border: solid 1px $pink-color;
 	background-color: #ffffff;
+	transition: 1s;
 }
 .pagination__view-all:hover {
 	background-color: $pink-color;

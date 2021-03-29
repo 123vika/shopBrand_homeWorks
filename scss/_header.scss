@@ -1,4 +1,6 @@
-
+.header-adaptive{
+  display: none;
+}
 .header {
   background-color: #ffffff;
   min-height: 100px;
@@ -165,6 +167,7 @@
   padding-top: 8px;
   padding-bottom: 8px;
   border-bottom: 1px solid #e8e8e8;
+  transition: 1s;
 }
 .cart-flex:hover{
   box-shadow: 0 5px 8px rgba(0, 0, 0, 0.16);
@@ -223,6 +226,7 @@
   text-decoration: none;
   color: $pink-color;
   border: 1px solid $pink-color;
+  transition: 1s;
 }
 .cart-checkout:hover {
   color: #ffffff;
@@ -238,6 +242,7 @@
   color: #4a4a4a;
   border: 1px solid #eaeaea;
   text-decoration: none;
+  transition: 1s;
 }
 .cart-go-to-cart:hover {
   color: #eaeaea;
@@ -254,12 +259,12 @@
   color: #ffffff;
   width: 130px;
   background-color: $pink-color;
+  transition: 1s;
 }
 .header-right__my-acc:hover {
   color: $pink-color;
   background-color: #ffffff;
   border: 1px solid $pink-color;
-  margin-left: 24px;
 }
 hr {
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.17);

@@ -47,6 +47,8 @@
 }
 .category-card {
 	position: relative;
+	object-fit: fill;
+	transition: 1s;
 }
 .category-card:hover {
 	box-shadow: 5px 5px 8px 8px rgba(0, 0, 0, 0.16);
@@ -92,6 +94,7 @@
 	display: block;
 	position: relative;
 	width: 263px;
+	transition: 1s;
 }
 .product-top,
 .you-may-card-block {
@@ -116,6 +119,7 @@
 .product-card:hover .product-card__img {
 	filter: brightness(50%);
 	object-fit: fill;
+	transition: 1s;
 }
 .product-card__link {
 	text-decoration: none;
@@ -206,16 +210,18 @@
 	letter-spacing: 0.025em;
 	color: #ffffff;
 	background-color: $pink-color;
+	transition: 1s;
 }
 .product-button__link:hover {
 	color: $pink-color;
 	background-color: #ffffff;
 	border: 1px solid $pink-color;
-	margin-bottom: 111px;
+	// margin-bottom: 112px;
 }
 .arrow {
 	color: #ffffff;
 	padding-left: 8px;
+	transition: 1s;
 }
 .product-button__link:hover .arrow {
 	color: $pink-color;
@@ -229,6 +235,7 @@
 	background-image: url(../img/feature/background.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
+	transition: 1s;
 }
 .feature-flex__bg:hover {
 	box-shadow: 5px 0 8px 8px rgba(0, 0, 0, 0.16);

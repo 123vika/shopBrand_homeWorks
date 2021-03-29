@@ -58,6 +58,7 @@
   z-index: 5;
   margin-right: 13px;
   background-color: #d6d6d6;
+	transition: 1s;
 }
 .line:hover {
   background-color: $pink-color;
@@ -120,10 +121,11 @@
   letter-spacing: 0.025em;
   color: #ffffff; 
   text-decoration: none;
+	transition: 1.5s;
 }
 .subscribe-flex__right-button_text{
   padding-top: 13px;
-
+	transition: 1.5s;
 }
 .subscribe-flex__right-button:hover {
   color: $pink-color;
