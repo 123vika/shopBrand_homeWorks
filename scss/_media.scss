@@ -11,7 +11,7 @@
 	.header-adaptive-left{
 		display: flex;
 		justify-content: start;
-		width: 45%;
+		width: 50%;
 	}
 	.header-adaptive-left__logo-search{
 		display: flex;
@@ -31,13 +31,13 @@
 	}
 	.header-adaptive-left__slider{
 		position: relative;
-		right: 40%;
+		right: 30%;
 		z-index: -3;
 	}
 	.header-adaptive-right{
 		display: flex;
 		position: relative;
-		width: 55%;
+		width: 50%;
 		background-color: #f1e4e6;
 		margin-top: -100px;
 	}
@@ -57,6 +57,7 @@
 		font-size: 30px;
 	}
 	.header-adaptive-right__gamburger-contact-cart{
+		display: flex;
 		position: absolute;
 		top: 0;
 		right: 0;
