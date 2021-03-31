@@ -33,6 +33,9 @@
 	font-size: 40px;
 	color: $pink-color;
 }
+.category-adaptive{
+	display: none;
+}
 .category {
 	margin-top: 62px;
 	height: 830px;
@@ -93,7 +96,12 @@
 .you-may-card {
 	display: block;
 	position: relative;
-	width: 263px;
+	transition: 1s;
+}
+.product-card__img{
+	max-width: 263px;
+	object-fit: fill;
+	object-position: center;
 	transition: 1s;
 }
 .product-top,
@@ -113,13 +121,9 @@
 .product-card:hover .product-card__add {
 	display: flex;
 }
-// .product-card__img{
-// object-fit: fill;
-// }
 .product-card:hover .product-card__img {
 	filter: brightness(50%);
 	object-fit: fill;
-	transition: 1s;
 }
 .product-card__link {
 	text-decoration: none;
@@ -203,7 +207,7 @@
 	margin-right: 453px;
 	margin-top: 79px;
 	margin-bottom: 113px;
-	padding: 18px 43px 19px 24px;
+	padding: 18px 0 19px 24px;
 	font-size: 16px;
 	font-weight: 700;
 	text-decoration: none;
@@ -269,7 +273,7 @@
 .feature-flex-box__card {
 	display: flex;
 	justify-content: space-between;
-	height: 33%;
+	height: 37%;
 	box-sizing: content-box;
 	overflow-x: auto;
 }

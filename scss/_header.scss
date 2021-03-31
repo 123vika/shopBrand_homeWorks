@@ -13,6 +13,7 @@
 .logo-link {
   display: flex;
   text-decoration: none;
+  box-sizing: content-box;
 }
 .header-form:active .drop-down {
   display: flex;
