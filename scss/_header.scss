@@ -293,8 +293,11 @@ hr {
 .header-bottom-menu__line-men {
   width: 75px;
   height: 3px;
-  margin-left: 12px;
+  margin-left: 15px;
   background-color: $pink-color;
+}
+.header-bottom-menu__line-men{
+  margin-left: 10px;
 }
 .header-bottom-menu__list:hover .mega-box {
   display: flex;

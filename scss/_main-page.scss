@@ -49,8 +49,11 @@
 	margin-right: 20px;
 }
 .category-card {
+	max-width: 560px;
 	position: relative;
+	box-sizing:content-box;
 	object-fit: fill;
+	object-position: center;
 	transition: 1s;
 }
 .category-card:hover {

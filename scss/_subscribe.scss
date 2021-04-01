@@ -26,6 +26,7 @@
   margin: 0;
   padding-left: 28px;
   width: 386px;
+  box-sizing: content-box;
   font-size: 16px;
   line-height: 26px;
   font-weight: 400;
@@ -94,7 +95,6 @@
 .subscribe-flex__right-input {
   padding-top: 14px;
   padding-bottom: 16px;
-  //text-align: center;
   margin-left: -123px;
   border: none;
   outline: none;
@@ -108,9 +108,9 @@
 }
 .subscribe-flex__right-button {
   position: absolute;
+  padding: 15px 0;
   right: 0px;
   width: 104px;
-  height: 46px;
   border: none;
   outline: none;
   background-color: #e1e1e1;
@@ -124,7 +124,6 @@
 	transition: 1.5s;
 }
 .subscribe-flex__right-button_text{
-  padding-top: 13px;
 	transition: 1.5s;
 }
 .subscribe-flex__right-button:hover {
