@@ -14,11 +14,7 @@
 	width: 200px;
 	// height: 34px;
 	margin-bottom: 18px;
-	padding-left: 11px;
-	padding-top: 12px;
-	padding-bottom: 12px;
 	border-bottom: 1px solid #ebebeb;
-	border-left: 5px solid $pink-color;
 	font-size: 14px;
 	font-weight: bold;
 	line-height: 1.43;
@@ -29,6 +25,10 @@
 }
 .chooses-category__summary{
 	display: flex;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	padding-left: 10px;
+	border-left: 5px solid $pink-color;
 	justify-content: space-between;
 	direction: rtl;
 	outline: none;

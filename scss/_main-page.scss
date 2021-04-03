@@ -223,7 +223,6 @@
 	color: $pink-color;
 	background-color: #ffffff;
 	border: 1px solid $pink-color;
-	// margin-bottom: 112px;
 }
 .arrow {
 	color: #ffffff;
@@ -278,7 +277,7 @@
 	justify-content: space-between;
 	height: 37%;
 	box-sizing: content-box;
-	overflow-x: auto;
+	// overflow-x: auto;
 }
 .feature-flex-box__img {
 	width: 45px;
